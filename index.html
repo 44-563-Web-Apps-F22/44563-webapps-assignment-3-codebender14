@@ -67,5 +67,17 @@
       <td>1</td>
     </tr>
   </table>
+  <hr>
+  <h4> Code Fencing </h4>
+  <blockquote>
+    Make entire div clickable
+    </blockquote>
+    <a href="https://stackoverflow.com/questions/50473898/make-entire-div-clickable">Link to stackoverflow question</a>
+  <pre>
+    $(".myBox").click(function() {
+      window.location = $(this).find("a").attr("href"); 
+      return false;
+    });
+  </pre>
 </body>
 </html>
